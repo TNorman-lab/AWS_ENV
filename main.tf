@@ -22,7 +22,7 @@ resource "aws_instance" "aws_example" {
 # The configuration for the `remote` backend.
 terraform {
   backend "remote" {
-    organization = "test-playground-security"
+    organization = "test_playground_security"
 
     workspaces {
       name = "AWS_ENV"
