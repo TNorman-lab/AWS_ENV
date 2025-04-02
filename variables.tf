@@ -21,3 +21,19 @@ variable "environment" {
   type        = string
   default     = "production"
 }
+
+variable "k8s_host" {
+  description = "Kubernetes API server endpoint"
+  type        = string
+}
+
+variable "k8s_ca_cert" {
+  description = "Base64 encoded Kubernetes cluster CA certificate"
+  type        = string
+}
+
+variable "k8s_token" {
+  description = "Kubernetes service account token"
+  type        = string
+  sensitive   = true
+}
