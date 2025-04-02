@@ -9,7 +9,7 @@ variable "bucket_name" {
   type        = string
   default     = "my-terraform-prod-bucket"
 }
-
+#new variable
 variable "bucket_description" {
   description = "A description for the S3 bucket"
   type        = string
