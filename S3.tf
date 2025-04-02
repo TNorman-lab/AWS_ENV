@@ -19,7 +19,7 @@ resource "aws_s3_bucket_versioning" "example" {
 }
 
 resource "aws_s3_bucket_policy" "cloudtrail_bucket_policy" {
-  bucket = aws_s3_bucket.my-terraform-prod-bucket.id
+  bucket = var.bucket_name
 
   policy = jsonencode({
     Version = "2012-10-17",
