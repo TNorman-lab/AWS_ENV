@@ -39,10 +39,11 @@ It is ideal for showcasing DevSecOps practices, infrastructure automation, and m
 - [Terraform CLI](https://developer.hashicorp.com/terraform/downloads)
 - AWS account with IAM credentials
 - Terraform Cloud account and workspace
+├── main.tf               # Core provider setup
+├── variables.tf          # Input variables
+├── outputs.tf            # Key resource outputs
+├── s3.tf                 # S3 bucket for logs/state
+├── cloudtrail.tf         # CloudTrail audit logging
+├── backend.tf            # Terraform Cloud backend
+└── README.md             # Project documentation
 
-### Deployment Steps
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-org/aws-terraform-live.git
-   cd aws-terraform-live
