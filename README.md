@@ -9,7 +9,7 @@ This repository defines an **infrastructure-as-code (IaC)** setup using Terrafor
 - Integration with CI/CD pipelines
 - Security tooling and best practices
 
-It is ideal for showcasing DevSecOps practices, infrastructure automation, and modular Terraform design.
+It is ideal for showcasing DevSecOps practices, infrastructure automation, and modular Terraform design within AWS from the ground up
 
 ---
 
@@ -27,9 +27,7 @@ It is ideal for showcasing DevSecOps practices, infrastructure automation, and m
 - ✅ **Modular Design**
   - Separated Terraform files for scalability
   - Reusable variable blocks and outputs
-- ✅ **Multi-provider Support (optional)**
-  - Kubernetes integration (EKS-ready)
-  - Aliased AWS accounts (dev/staging/prod)
+
 
 ---
 
