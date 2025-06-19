@@ -38,7 +38,7 @@ def check_bucket_public_access(bucket_name, s3_client):
         return False, f"Error: {str(e)}"
 
 def scan_s3_buckets():
-    """Scan all S3 buckets and generate a security report."""
+    """Scaned all S3 buckets and generate a security report."""
     s3_client = boto3.client('s3')
     report = []
 
